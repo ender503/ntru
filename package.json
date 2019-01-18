@@ -1,0 +1,19 @@
+{
+  "name": "ntru",
+  "version": "1.0.0",
+  "description": "Provides convenience methods to use NTRUEncrypt",
+  "main": "src/ntru.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "ender503",
+  "license": "MIT",
+  "dependencies": {
+    "@decentralized-auth/gen-seed": "^1.0.1",
+    "@decentralized-auth/ntru": "^1.0.1"
+  },
+  "devDependencies": {
+    "@iota/mam": "^0.5.0",
+    "jest": "^23.6.0"
+  }
+}
