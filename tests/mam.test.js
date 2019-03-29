@@ -23,7 +23,7 @@ describe('NTRU encryption', () => {
     expect(trytes).toMatch(/[9A-Z]+/);
 
     // Attach encrypted message to the MAM channel
-    let mamState = Mam.init('http://node.deviceproof.org:14266');
+    let mamState = Mam.init('https://nodes.thetangle.org:443');
     const message = Mam.create(mamState, trytes);
     await Mam.attach(message.payload, message.address);
 
